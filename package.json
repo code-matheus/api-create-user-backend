@@ -1,0 +1,20 @@
+{
+  "name": "api-create-user-backend",
+  "version": "1.0.0",
+  "description": "Api para criação de usuarios, funcionamento no backend",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  }
+}
