@@ -1,4 +1,4 @@
-
+import cors from 'cors';
 import { PrismaClient } from '@prisma/client';
 import express from "express";
 
@@ -6,6 +6,7 @@ const prisma = new PrismaClient();
 
 const server = express()
 server.use(express.json())
+server.use(cors())
 
 
 server.post('/users', async (req, res) => {
